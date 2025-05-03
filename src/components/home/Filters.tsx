@@ -28,6 +28,7 @@ import {
 } from "../ui/select";
 import { SUPPLIER_MOCK } from "@/mocks/suppliers";
 import { CATEGORY_MOCK } from "@/mocks/categories";
+import { Button } from "../ui/button";
 
 const formSchema = z.object({
   minPrice: z.number().min(0).optional(),
@@ -161,6 +162,9 @@ export default function Filters() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
+          <div className="p-4 text-end border-t">
+            <Button>Apply</Button>
+          </div>
         </form>
       </Form>
     </>
