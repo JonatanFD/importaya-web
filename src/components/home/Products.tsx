@@ -1,7 +1,10 @@
 import { PRODUCT_MOCK } from "@/mocks/products";
 import Product from "./Product";
+import { getProducts } from "@/actions/getProducts";
 
-export default function Products() {
+export default async function Products() {
+  const products = await getProducts();
+
   return (
     <>
       <style>
