@@ -1,4 +1,3 @@
-import { PRODUCT_MOCK } from "@/mocks/products";
 import Product from "./Product";
 import { getProducts } from "@/actions/getProducts";
 
@@ -17,8 +16,8 @@ export default async function Products() {
         `}
       </style>
       <ul className="grid-products p-4">
-        {PRODUCT_MOCK.map((pro) => (
-          <Product key={pro.id} product={pro} />
+        {products.map((pro) => (
+          <Product key={pro.id} product={{...pro, price: Number(pro.price)}} />
         ))}
       </ul>
     </>
