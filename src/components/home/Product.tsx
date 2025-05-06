@@ -17,7 +17,7 @@ export default function Product({
     return (
         <section className="p-0 flex flex-col gap-4">
             <header></header>
-            <main className="p-0">
+            <main className="p-0 flex-1">
                 <CardTitle>{product.name}</CardTitle>
                 <CardDescription>{product.description}</CardDescription>
             </main>
