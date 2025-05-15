@@ -206,7 +206,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\nanak\\Desktop\\dev\\sistemas-operativos\\importaya-web\\generated\\prisma",
+      "value": "/Users/nanakusa/Desktop/dev/importaya-web/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -215,17 +215,16 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "windows",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\nanak\\Desktop\\dev\\sistemas-operativos\\importaya-web\\prisma\\schema.prisma",
+    "sourceFilePath": "/Users/nanakusa/Desktop/dev/importaya-web/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../.env",
-    "schemaEnvPath": "../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../prisma",
   "clientVersion": "6.7.0",
@@ -234,7 +233,7 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
-  "postinstall": false,
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
